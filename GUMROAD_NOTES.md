@@ -6,14 +6,14 @@
 
 **Price**: $9 (Pay what you want option available)
 
-**Website**: https://dotenv.live
+**Website**: https://devenv.live
 
 **Description**:
 Stop wasting hours configuring your dev environment. DevEnv sets up Python, Go, shell tools, project scaffolding, and CI/CD in a single command.
 
 Built for Python & Go developers who want to stop configuring and start building.
 
-**Website**: https://dotenv.live
+**Website**: https://devenv.live
 
 ## What's included:
 - Python environment (Black, Ruff, pytest, mypy, pre-commit)
@@ -33,7 +33,7 @@ pip install devenv
 devenv init
 ```
 
-## Visit dotenv.live for more info.
+## Visit devenv.live for more info.
 
 ## Social proof section (to fill after first sales):
 "Saved me 3 hours of setup time on a new laptop" — Sarah K., Freelance Dev
@@ -66,5 +66,5 @@ devenv init
 1. **Time-saving**: "Stop spending 2 hours setting up your dev environment"
 2. **Simplicity**: "One command. Done."
 3. **Opinionated defaults**: "Battle-tested configs so you don't have to think"
-4. **Website**: Visit dotenv.live
+4. **Website**: Visit devenv.live
 

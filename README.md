@@ -2,7 +2,7 @@
 
 One-command dev environment setup for Python & Go developers.
 
-🌐 **Website**: [dotenv.live](https://dotenv.live)
+🌐 **Website**: [devenv.live](https://devenv.live)
 📦 **GitHub**: [theniteshrai/devenv](https://github.com/theniteshrai/devenv)
 💰 **Buy**: [Gumroad](https://gumroad.com/devenv) — $9 (pay what you want)
 
