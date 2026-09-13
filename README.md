@@ -2,25 +2,15 @@
 
 One-command dev environment setup for Python & Go developers.
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
-## Install
-
-```bash
-pip install devenv
-```
+🌐 **Website**: [dotenv.live](https://dotenv.live)
+📦 **GitHub**: [theniteshrai/devenv](https://github.com/theniteshrai/devenv)
+💰 **Buy**: [Gumroad](https://gumroad.com/devenv) — $9 (pay what you want)
 
 ## Quick Start
 
 ```bash
-# Set up your entire dev environment
+pip install devenv
 devenv init
-
-# Create a new project
-devenv new my-app
-
-# Check your environment status
-devenv status
 ```
 
 ## Features
@@ -46,6 +36,20 @@ devenv status
 - fzf fuzzy finder
 - Starship prompt configuration
 - Useful aliases and functions
+
+## Install
+
+```bash
+# From PyPI
+pip install devenv
+
+# From GitHub
+git clone https://github.com/theniteshrai/devenv
+cd devenv && pip install -e .
+
+# Standalone (zero dependencies)
+python3 devenv-standalone.py
+```
 
 ## License
 
