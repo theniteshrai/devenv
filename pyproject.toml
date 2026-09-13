@@ -1,0 +1,17 @@
+[project]
+name = "devenv"
+version = "0.1.0"
+description = "One-command dev environment setup for Python & Go projects"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1",
+    "rich>=13.0",
+    "questionary>=2.0",
+]
+
+[project.scripts]
+devenv = "devenv.cli:main"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
