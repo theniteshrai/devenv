@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevEnv — One-Command Dev Environment Setup</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #fff; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+h1 { font-size: 3em; margin: 20px 0; background: linear-gradient(135deg, #00d4ff, #7b2fff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+h2 { font-size: 1.5em; margin: 30px 0 15px; color: #00d4ff; }
+.subtitle { font-size: 1.3em; color: #888; margin-bottom: 30px; }
+.code { background: #1a1a2e; padding: 20px; border-radius: 12px; border: 1px solid #333; margin: 20px 0; font-family: 'Fira Code', monospace; }
+.code .command { color: #00ff88; font-size: 1.1em; }
+.features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0; }
+.feature { background: #1a1a2e; padding: 20px; border-radius: 12px; border: 1px solid #333; }
+.feature h3 { color: #00d4ff; margin-bottom: 8px; }
+.feature p { color: #888; font-size: 0.9em; }
+.price { font-size: 3em; color: #00ff88; font-weight: bold; margin: 20px 0; }
+.btn { display: inline-block; background: linear-gradient(135deg, #00d4ff, #7b2fff); color: #fff; padding: 15px 40px; border-radius: 12px; text-decoration: none; font-size: 1.2em; margin: 10px 5px; }
+.btn:hover { opacity: 0.9; }
+footer { margin-top: 40px; padding: 20px; text-align: center; color: #555; border-top: 1px solid #333; }
+badge { background: #1a1a2e; color: #00d4ff; padding: 4px 12px; border-radius: 20px; font-size: 0.8em; margin-right: 5px; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🚀 DevEnv</h1>
+<p class="subtitle">One-command dev environment setup for Python & Go developers.</p>
+
+<div class="code">
+<span class="command">pip install devenv</span>
+<span class="command">devenv init</span>
+<p style="color:#888; margin-top:10px;">That's it. Everything configured. Ready to build.</p>
+</div>
+
+<h2>What's Included</h2>
+<div class="features">
+<div class="feature"><h3>🐍 Python</h3><p>Black, Ruff, pytest, mypy, pre-commit</p></div>
+<div class="feature"><h3>🦀 Go</h3><p>golangci-lint, dlv, air, go-fmt</p></div>
+<div class="feature"><h3>🐚 Shell</h3><p>fzf, starship, aliases</p></div>
+<div class="feature"><h3>📁 Scaffolding</h3><p>CI/CD, tests, linting</p></div>
+</div>
+
+<h2>Why DevEnv?</h2>
+<p style="color:#aaa; margin: 20px 0;">Stop spending 2-4 hours configuring your dev environment. DevEnv does it all in 10 seconds.</p>
+
+<h2>Available on Gumroad</h2>
+<p style="color:#aaa; margin: 20px 0;">$9 — pay what you want option available.</p>
+<a href="https://gumroad.com/devenv" class="btn">Buy on Gumroad</a>
+<a href="https://github.com/theniteshrai/devenv" class="btn" style="background: #333;">View on GitHub</a>
+
+<footer>
+MIT Licensed • Open Source • Built with ❤️ by the Python & Go community
+</footer>
+</div>
+</body>
+</html>
